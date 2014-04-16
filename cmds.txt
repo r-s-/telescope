@@ -1,0 +1,15 @@
+log into AWS via:
+ssh -i mypair.pem ubuntu@ec2-54-187-70-178.us-west-2.compute.amazonaws.com
+
+get most up to date code:
+git pull
+
+make a tarball: -- CURRENT VERSION ONLY WORKS ON 0.7.0 NOT 0.8.0. THIS MAY CHANGE --
+meteor bundle bundle.tgz --release 0.7.0
+
+misc:
+
+killall node   (*?)
+
+
+
